@@ -15,11 +15,11 @@ from streamlit_folium import folium_static
 
 root_path = r"src\4_dev_dashboard"
 
-with open(root_path + r"\styles.css") as estilo:
-    st.markdown(
-        f"<style>{estilo.read()}</style>",
-        unsafe_allow_html=True,
-        )
+# with open(root_path + r"\styles.css") as estilo:
+#     st.markdown(
+#         f"<style>{estilo.read()}</style>",
+#         unsafe_allow_html=True,
+#         )
 
 # importando dataset
 df_ocorr = pd.read_csv(r'.\src\4_dev_dashboard\df_ocorrencias_aeronauticas_tratado.csv')

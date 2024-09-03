@@ -17,11 +17,11 @@ st.set_page_config(
    initial_sidebar_state="expanded",
 )
 
-with open(root_path + r"\styles.css") as estilo:
-    st.markdown(
-        f"<style>{estilo.read()}</style>",
-        unsafe_allow_html=True,
-        )
+# with open(root_path + r"\styles.css") as estilo:
+#     st.markdown(
+#         f"<style>{estilo.read()}</style>",
+#         unsafe_allow_html=True,
+#         )
 
 # adicionando logo da cenipa à sidebar do df
 # with st.sidebar:
